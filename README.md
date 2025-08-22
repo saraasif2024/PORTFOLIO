@@ -3,10 +3,9 @@
 This is my personal portfolio website built with Next.js and Tailwind CSS, showcasing my projects, skills, and journey as a web developer.
 
 🚀 Live Demo: 
-portfolio-9xak.vercel.app
+https://portfolio-9xak.vercel.app/
 
-✨ Features
-
+✨ Features:
 🎨 Modern UI with responsive design
 
 ⚡ Built using Next.js 15 + Tailwind CSS
