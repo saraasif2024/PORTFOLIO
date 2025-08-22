@@ -52,7 +52,9 @@ const About = () => {
               Front-End Developer & Creative Designer
             </h3>
             <p className="text-gray-600 mb-6 leading-7">
-              I'm Sara Asif, a passionate Front-End Developer with strong command over modern web technologies like HTML, CSS, JavaScript, TypeScript, Tailwind CSS, and Next.js. I blend creativity with code to build premium, responsive, and pixel-perfect websites.
+       
+
+               I&apos;m Sara Asif, a passionate Front-End Developer with strong command over modern web technologies like HTML, CSS, JavaScript, TypeScript, Tailwind CSS, and Next.js. I blend creativity with code to build premium, responsive, and pixel-perfect websites.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">

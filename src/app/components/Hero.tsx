@@ -1,4 +1,3 @@
-
 // 'use client';
 // import React, { useEffect, useRef } from 'react';
 // import Typed from 'typed.js';
@@ -25,14 +24,14 @@
 //       id="hero"
 //       className="h-screen bg-gray-50 flex items-center justify-center px-6 sm:px-16"
 //     >
-     
+
 //      <div className=
 //    "absolute top-10 left-0.5 bg-pink-900 w-[990px] h-[540px]  shadow-lg"
 //    >
 //     </div>
 
 //       <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 items-center gap-10">
-        
+
 //         {/* LEFT SIDE - Text */}
 //         <motion.div
 //           initial={{ opacity: 0, x: -40 }}
@@ -64,7 +63,7 @@
 //                   "polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%)",
 //               }}
 //             ></div>
-            
+
 //             {/* Inner Hexagon with Image */}
 //             <div
 //               className="w-60 h-60 overflow-hidden shadow-xl relative bg-white"
@@ -88,28 +87,17 @@
 
 // export default Hero;
 
-
-
-
-
-
-
-
-
-
-
-
-'use client';
-import React, { useEffect, useRef } from 'react';
-import Typed from 'typed.js';
-import { motion } from 'framer-motion';
+"use client";
+import React, { useEffect, useRef } from "react";
+import Typed from "typed.js";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   const typedEl = useRef(null);
 
   useEffect(() => {
     const typed = new Typed(typedEl.current, {
-      strings: ['Front-End Developer', 'Freelancer'],
+      strings: ["Front-End Developer", "Freelancer"],
       typeSpeed: 120,
       backSpeed: 60,
       loop: true,
@@ -126,15 +114,13 @@ const Hero = () => {
       className="h-screen bg-gray-50 flex items-center justify-center px-6 sm:px-16 relative"
     >
       {/* Background Box (responsive) */}
-     <div
-  className="hidden lg:block  md:block absolute top-10 left-4 
+      <div
+        className="hidden lg:block  md:block absolute top-10 left-4 
              bg-sky-100
              w-[80%] 
              h-[500px] 
              rounded-xl shadow-lg"
-></div>
-
-
+      ></div>
 
       <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 items-center gap-10 relative z-10">
         {/* LEFT SIDE - Text */}
@@ -165,7 +151,7 @@ const Hero = () => {
               className="absolute inset-0 bg-gradient-to-r from-sky-300 to-pink-300"
               style={{
                 clipPath:
-                  'polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%)',
+                  "polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%)",
               }}
             ></div>
 
@@ -174,7 +160,7 @@ const Hero = () => {
               className="w-60  h-66 overflow-hidden  shadow-xl relative bg-white"
               style={{
                 clipPath:
-                  'polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%)',
+                  "polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%)",
               }}
             >
               <img

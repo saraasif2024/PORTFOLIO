@@ -3,10 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
   return (
-    <section
-      id="contact"
-      className=" px-6 py-16 bg-[#f5f8fd] text-[#2c2f3f]"
-    >
+    <section id="contact" className=" px-6 py-16 bg-[#f5f8fd] text-[#2c2f3f]">
       <div className="max-w-6xl mx-auto">
         <motion.h2
           className="text-3xl md:text-4xl font-bold text-pink-500 mb-2 uppercase"
@@ -18,16 +15,16 @@ export default function Contact() {
           Contact Me
         </motion.h2>
 
-        
-                <motion.p
-                  className="text-lg md:text-xl text-[#173b6c] font-semibold mb-12"
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.2, duration: 0.6 }}
-                >
-              Feel free to reach out via email or use the form below to send me a message!
-                </motion.p>
+        <motion.p
+          className="text-lg md:text-xl text-[#173b6c] font-semibold mb-12"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.2, duration: 0.6 }}
+        >
+          Feel free to reach out via email or use the form below to send me a
+          message!
+        </motion.p>
 
         {/* Centered Form */}
         <div className="flex justify-center">
@@ -36,11 +33,14 @@ export default function Contact() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
             className="bg-white p-6 rounded-lg shadow-md space-y-4 w-full max-w-xl"
-            onSubmit={(e:any) => {
+            onSubmit={(e: React.FormEvent<HTMLFormElement>) => { 
               e.preventDefault();
               alert("Thank you for your message! 📨");
-            }}
+            }
+          }
           >
+
+          
             <input
               type="text"
               placeholder="Your Name"
